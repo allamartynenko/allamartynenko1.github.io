@@ -1,0 +1,78 @@
+﻿
+
+.container{
+	width: 100%;
+	max-width: 1100px;
+	min-width: 640px;
+	margin: auto;
+}
+.container-fluid{
+	width: 100%;
+}
+
+
+.header{
+	border-bottom: solid red 5px;
+}
+.header h1{
+	color: red;
+	font-size: 62px;
+	text-shadow: green 2px 2px 2px;
+	text-align: center;
+}
+.header span{
+	color: red;
+}
+.nav{
+	padding-bottom: 20px;
+	text-align: center;
+}
+.nav a{
+	color: green;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0px 10px;
+}
+.nav a:hover, .nav .punkt{
+	color: green;
+	text-decoration: none;
+	border-bottom: solid 2px red;
+}
+.content{
+	border-top: solid green 5px;
+	border-bottom:solid green 5px;
+	padding-bottom: 20px;
+}
+
+.content h2{
+	text-align: center;
+	color: green;
+	font-size: 45px;
+}
+.content h3{
+	text-align: center;
+	color: grey;
+	font-size: 25px;
+}
+.content p{
+	font-size: 20px;
+}
+.content img{
+	margin: auto;
+	width: 90%;
+	display: block;
+}
+
+.content iframe{
+display: block;
+margin: auto;	
+}
+.footer{
+	border-top: solid red 5px;
+}
+
+.footer p{
+	text-align: center;
+	font-size: 20px;
+}
+
